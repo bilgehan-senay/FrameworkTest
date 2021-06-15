@@ -12,7 +12,8 @@ Pod::Spec.new do |spec|
   spec.homepage     = "http://EXAMPLE/FrameworkTest"
   spec.license      = "MIT"
   spec.author             = { "Bilgehan Senay" => "ilhanbilgehan.senay@arcelik.com" }
-  spec.source       = { :path => '.' }
+  spec.source       = { :git => "https://github.com/bilgehan-senay/FrameworkTest.git", :tag => "1.0.1" }
+  #spec.source       = { :path => '.' }
   spec.source_files  = "FrameworkTest"
   spec.exclude_files = "Classes/Exclude"
   spec.swift_version = "5.0"
