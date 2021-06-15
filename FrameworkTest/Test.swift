@@ -12,7 +12,7 @@ public class Test{
     public init() {}
 
     public func printSomething(){
-        print("something")
+        print("something Bilgehan")
     }
 }
 
